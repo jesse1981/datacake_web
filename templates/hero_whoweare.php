@@ -1,0 +1,1 @@
+<div id="hero_whoweare" class="hero whoweare" data-stellar-background-ratio="0.5"></div>

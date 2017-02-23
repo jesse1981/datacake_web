@@ -1,0 +1,113 @@
+body {
+    font-family: tahoma;
+    width: 100%;
+    margin: 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+ul.nav li.pages {
+    float: left;
+    padding: 5px 15px;
+    list-style: none;
+    border-bottom: 1px solid;
+    margin-right: 10px;
+}
+ul.nav li.pages a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+.hero {
+    clear: both;
+    height: 850px;
+    background-attachment: fixed !important;
+}
+.hero.whoweare {
+    background: url('http://www.datacake.com.au/wp-content/themes/datacake/img/whoweare.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero.achievments {
+    background: url('http://www.datacake.com.au/wp-content/themes/datacake/img/achievments.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bios .person a img {
+    width: 200px;
+    border-radius: 100px;
+    border: 3px ridge;
+}
+.bios .person > div {
+    display: none;
+}
+.panel {
+    margin: 40px 100px;
+}
+.bios {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+.person {
+    display: inline-block;
+    margin: 0 20px;
+}
+.bios .person a img {
+    width: 200px;
+    height: 200px;
+    border: 3px ridge;
+    border-radius: 100px;
+}
+.featherlight-inner .left img {
+    width: 100px;
+    border-radius: 50px;
+}
+.featherlight-inner .right {
+    margin-left: 20px;
+}
+.featherlight-inner {
+    padding: 15px;
+}
+.featherlight-inner .right p {
+    width: 400px;
+}
+.featherlight-inner .right h3, .featherlight-inner .right h4 {
+    margin-top: 0px;
+}
+.activity-row {
+    clear: left;
+    border-top: 1px solid;
+    padding: 10px;
+    overflow: auto;
+}
+.activity-row:hover {
+    background: #aeF;
+}
+.activity-award {
+    width: 35%;
+}
+.activity-name {
+    width: 50%;
+}
+.activity-date {
+    width: 15%;
+}
+.activity-name, .activity-date, .activity-award {
+    float: left;
+}
+form.contact {
+    width: 500px;
+    margin: 0 auto;
+}
+.contact label {
+    clear: left;
+    width: 150px;
+    margin-bottom: 15px;
+}
+.contact label, .contact input, .contact textarea {
+    float: left;
+}
