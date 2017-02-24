@@ -10,6 +10,7 @@
         $count  = 0;
         foreach ($people as $p) {
             $count++;
+            $description = explode("\r\n", $p["description"]);
         ?>
         <div class="person">
             <a href="#" data-featherlight="#person_<?php echo $count; ?>">
@@ -22,7 +23,7 @@
                 <div class="right">
                     <h3><?php echo $p["fullname"] ?></h3>
                     <h4><?php echo $p["tag_line"] ?></h4>
-                    <p><?php echo $p["description"]; ?></p>
+                    <?php foreach ($description as $d) echo "<p>$d</p>"; ?>
                 </div>
             </div>
         </div>

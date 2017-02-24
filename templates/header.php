@@ -3,7 +3,7 @@
     $offline	= "$theme_dir/img/blank-avatar.png";
     $online     = "$theme_dir/img/blank-avatar-online.png";
 ?>
-<div class="collapse navbar-collapse header" id="navbar-collapse-1">
+<div class="header" id="navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
         <?php
         $pages = getAllPages();

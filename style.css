@@ -9,6 +9,11 @@ body {
 .right {
     float: right;
 }
+div.header {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+}
 ul.nav li.pages {
     float: left;
     padding: 5px 15px;
@@ -68,7 +73,7 @@ ul.nav li.pages a {
     padding: 15px;
 }
 .featherlight-inner .right p {
-    width: 400px;
+    width: 500px;
 }
 .featherlight-inner .right h3, .featherlight-inner .right h4 {
     margin-top: 0px;
@@ -110,6 +115,9 @@ form.contact {
 }
 .contact label, .contact input, .contact textarea {
     float: left;
+}
+form.contact input[type="text"] {
+    width: 300px;
 }
 form.contact textarea {
     width: 660px;
