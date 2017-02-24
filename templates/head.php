@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="<?php echo $theme_dir; ?>/img/logo.ico">
 
     <!-- Bootstrap core /css -->
-    <link href="<?php echo $theme_dir; ?>/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <!-- jQuery UI -->
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/sunny/jquery-ui.css" rel="stylesheet">

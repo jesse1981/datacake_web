@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html hola_ext_inject="ready" class=" js no-touch csstransitions" lang="en"><!--<![endif]-->	
+<html lang="en">
     <?php include 'head.php'; ?>
-    <body hola-ext-player="1" class="front" id="page-id-<?php echo $page_id; ?>">
+    <body id="page-id-<?php echo $page_id; ?>">
         <div class="page-wrapper">
             <?php include 'header.php'; ?>
             <?php
